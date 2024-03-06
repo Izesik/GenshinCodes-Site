@@ -1,0 +1,30 @@
+.feature-card {
+    width: 200px ;
+    height: 200px;
+    transition: width 0.5s;
+    background: #171c28;
+    border: 1px solid rgba(54, 64, 73, 0.3);
+    border-radius: 16px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.28), 0 3px 6px rgba(0, 0, 0, 0.35);
+    overflow: hidden;
+    text-align: left;
+    transition: transform 0.3s;
+  }
+
+.feature-card:hover {
+  transform: translateY(-10px);
+}
+
+  .feature-card-title {
+    font-family: 'Source Code Pro';
+    font-size: large;
+    font-weight: 600;
+    color: rgb(225,229,231);
+    background: linear-gradient(180deg, rgba(225,229,231,1) 0%, rgba(204,204,204,1)) padding-box text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .feature-card-description {
+    color: #a2aabc;
+    font-size: 0.90rem;
+  }

@@ -1,0 +1,73 @@
+.header {
+    text-align: center;
+    padding: 75px 25px;
+}
+
+.screenshot {
+    max-width: 1100px;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+
+.title {
+    font-family: 'Source Code Pro';
+    font-weight: 600;
+    font-size: 70px;
+    color: rgb(225,229,231);
+    background: linear-gradient(180deg, rgba(225,229,231,1) 0%, rgba(204,204,204,1)) padding-box text;
+    -webkit-text-fill-color: transparent;
+}
+
+.subtitle {
+    font-family: 'Source Code Pro';
+    font-weight: 400;
+    font-size: 1rem;
+    color: #6679a4;
+    margin-bottom: 50px;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 30px;
+    justify-content: center;
+    gap: 50px;
+}
+
+.action-button {
+    font-family: 'Source Code Pro';
+    font-weight: 700;
+    padding: 10px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    box-shadow: 14px 10px 11px -3px rgba(0,0,0,0.1);
+    background-color: #4F646F;
+    border-color: #4F646F;
+    border-radius: 10px;
+    transition: border-radius 0.3s, background-color 0.3s;
+}
+
+.action-button:hover {
+    border-radius: 25px;
+    background-color: rgba(45, 142, 191,.5);
+}
+
+.credit-button {
+    font-family: 'Source Code Pro';
+    font-weight: 700;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: rgba(45, 142, 191,.2);
+    color: rgb(94, 167, 212);
+    border-color: #4F646F;
+    border: 0.5px solid rgba(54, 122, 191, 0.56);
+    border-radius: 25px;
+    transition: border-radius 0.3s, background-color 0.3s;
+}
+
+.credit-button:hover {
+    background-color: rgba(45, 142, 191,.5);
+    color: rgb(94, 167, 212);
+    border-radius: 15px;
+}
