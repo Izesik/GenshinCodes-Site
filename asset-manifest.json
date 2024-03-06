@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Impact-Code-Finder-Site/static/css/main.ad5bf4f1.css",
+    "main.js": "/Impact-Code-Finder-Site/static/js/main.c21d82dc.js",
+    "static/js/453.68a045b6.chunk.js": "/Impact-Code-Finder-Site/static/js/453.68a045b6.chunk.js",
+    "static/media/logo.svg": "/Impact-Code-Finder-Site/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Impact-Code-Finder-Site/index.html",
+    "main.ad5bf4f1.css.map": "/Impact-Code-Finder-Site/static/css/main.ad5bf4f1.css.map",
+    "main.c21d82dc.js.map": "/Impact-Code-Finder-Site/static/js/main.c21d82dc.js.map",
+    "453.68a045b6.chunk.js.map": "/Impact-Code-Finder-Site/static/js/453.68a045b6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ad5bf4f1.css",
+    "static/js/main.c21d82dc.js"
+  ]
+}
