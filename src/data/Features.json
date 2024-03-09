@@ -4,15 +4,15 @@
         "description": "The bot regularly scans a designated website for the latest Genshin Impact codes and stores them with descriptions."
     },
     {
-        "title": "Automatic Alerts",
-        "description": "Notifies the Discord server when new codes are found and removes expired codes from the database."
+        "title": "Real-time Alerts",
+        "description": "Notifies your Discord server whenever new codes are found."
     },
     {
-        "title": "Scheduled Scans",
-        "description": "Automatically checks the website every day at 1pm EST to keep the codes database up to date."
+        "title": "Embed Messages",
+        "description": "Displays codes in a beautifully formatted Discord embed message to provide a clean and readable experience."
     },
     {
-        "title": "Built-in Commands",
-        "description": "Includes built-in Discord commands to force scrape, database fetch, and set bot configurations"
+        "title": "Discord Commands",
+        "description": "Supports custom Discord commands to force search, display all active codes, and configure server parameters."
     }
 ]

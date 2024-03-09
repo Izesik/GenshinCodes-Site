@@ -1,6 +1,5 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
 import FeatureCard from './../Card/FeatureCard'
 import Button from 'react-bootstrap/Button';
 import './Homepage.css'
@@ -16,8 +15,8 @@ function Homepage() {
         <header className="header">
             
             <h1 className="title"> 
-            Impact Code Finder </h1>
-            <h2 className="subtitle">A Discord bot with the objective to fetch and notify users of the latest promotional codes for the game, <span className='subtitle' style={{fontWeight: 'bold'}}>Genshin Impact</span>.</h2>
+            Genshin Codes </h1>
+            <h2 className="subtitle">A powerful bot designed to enhance your <span className='subtitle' style={{fontWeight: 'bold'}}>Genshin Impact</span> experience.</h2>
             <img className="screenshot" src={`${process.env.PUBLIC_URL}/${'Images/Product_Image.png'}`} alt="screenshot"></img>
             <a href='https://discord.com/oauth2/authorize?client_id=1201947014963658852&permissions=8&scope=bot' target='_blank' rel='noreferrer'><Button className='action-button'>Add To Discord</Button></a>
         </header>
@@ -36,6 +35,9 @@ function Homepage() {
         </div>
 
         <a href='https://isaacnunez.com/' target='_blank' rel='noreferrer'><Button className='credit-button'>Made By Isaac Nunez</Button></a>
+
+        <h2 className='subtitle'>Not affiliated with miHoYo</h2>
+
       
         </Container>
         </>
